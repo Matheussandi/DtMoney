@@ -8,9 +8,9 @@
 
 - [x] Idenficar a entrada/saída do dinheiro;
 
-- [x] Realizar de uma nova transação.
+- [x] Realizar uma nova transação.
  
- - [x] Total da conta.
+ - [x] Visualizar o total da conta.
  
 # 👨‍💻 Tecnologias
 
