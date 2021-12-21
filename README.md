@@ -8,7 +8,7 @@
 
 - [x] Idenficar a entrada/saída do dinheiro;
 
-- [x] Realizar uma nova transação.
+- [x] Realizar uma nova transação;
  
  - [x] Visualizar o total da conta.
  
