@@ -1,17 +1,12 @@
-import { useState } from 'react';
-
 import logoImg from '../../assets/logo.svg'
 
 import { Container, Content } from './styles'
 
 interface IHeaderProps {
     onOpenNewTransacionModal: () => void;
-    onIsNewTransactionModalClose: boolean;
-    curso: string;
-
 }
 
-export function Header({ onOpenNewTransacionModal, onIsNewTransactionModalClose, curso}: IHeaderProps) {
+export function Header({ onOpenNewTransacionModal}: IHeaderProps) {
     return ( 
         <Container>
             <Content>
