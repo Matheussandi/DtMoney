@@ -18,15 +18,15 @@ export function App() {
 
   return (
     <div className="App">
-          <TransactionProvider>
-      <Header onOpenNewTransacionModal={ handleOpenNewTransactionModal }/>
-      <Dashboard />
-      <NewTransactionModal 
+      <TransactionProvider>
+        <Header onOpenNewTransacionModal={ handleOpenNewTransactionModal }/>
+        <Dashboard />
+        <NewTransactionModal 
         isOpenProp={ isNewTransactionModalOpen }
         onRequestCloseProp = { handleCloseNewTransactionModal }
-      />
-      <GlobalStyle />
-    </TransactionProvider>
+        />
+        <GlobalStyle />
+      </TransactionProvider>
     </div>
   )
 }
